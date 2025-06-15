@@ -11,6 +11,30 @@
 *.lo
 *.la
 
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.res
+*.ilk
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.lastbuildstate
+*.cachefile
+
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+
 /build/
 /bin/
 /Debug/
@@ -23,6 +47,7 @@ Makefile
 cmake_install.cmake
 *.cmake
 
+.vscode/
 .vs/
 *.vcxproj*
 *.sln
